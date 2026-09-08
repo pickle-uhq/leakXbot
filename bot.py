@@ -34,9 +34,9 @@ async def main():
         await bot.load_extension("cogs.roles")
         await bot.load_extension("cogs.moderation")
         await bot.load_extension("cogs.extras")
+        await bot.load_extension("cogs.temp_roles")
         await bot.start(TOKEN)
 
 
 if __name__ == "__main__":
     asyncio.run(main())
-
